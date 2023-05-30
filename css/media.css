@@ -1,5 +1,5 @@
 /* Add to the mobile screens*/
-@media screen and (max-width:600px) {
+@media only screen and (max-width:600px) {
 
     .name-section,
     .email-section,
@@ -30,6 +30,7 @@
 
     .footer {
         margin: 0px;
+        width: 100%;
     }
 
     .footer-top {
