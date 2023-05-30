@@ -1,0 +1,65 @@
+/* Add to the mobile screens*/
+@media only screen and (max-width:600px) {
+
+    .name-section,
+    .email-section,
+    .message-section {
+        flex-direction: column;
+        margin-left: 2vw;
+        margin-right: 2vw;
+
+    }
+
+    #message {
+        margin-left: 4px;
+    }
+
+    textarea {
+        margin-left: 2px;
+    }
+
+    .contact-btn-section {
+        margin-right: 28vw;
+    }
+
+
+    .social-media {
+        justify-content: start;
+        margin-left: 1vw;
+    }
+
+    .footer {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        margin-top: 2vw;
+        width: max-content;
+    }
+    .footer-links label{
+        width: 100%;
+    }
+
+    .footer-top-right-section {
+        margin-left: 2vw;
+
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        margin-right: 5vw;
+    }
+
+    .footer-bottom {}
+
+    #copywrite-label {
+        text-align: start;
+
+    }
+}
