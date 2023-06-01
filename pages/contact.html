@@ -12,14 +12,36 @@
 </head>
 
 <body>
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-utensils"></i> food </a>
+        
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#popular">popular</a>
+            <a href="#menu">menu</a>
+            <a href="#order">order</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+    
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+        
+    </header>
+   
     <section class="content">
         <h2 class="contact-title">Contact Us</h2>
         <section class="name-section">
-            <label class="form-label">Name</label><input type="text" placeholder="Enter your name" />
+            <label class="form-label">Name</label><input class="contact-input" type="text" placeholder="Enter your name" />
         </section>
 
         <section class="email-section">
-            <label class="form-label">Email</label><input type="text" placeholder="Enter your password" />
+            <label class="form-label">Email</label><input type="text" class="contact-input" placeholder="Enter your password" />
         </section>
 
         <section class="message-section">
@@ -31,35 +53,66 @@
         </section>
 
     </section>
-    <footer class="footer">
-        <section class="footer-top">
-            <!-- Left side of the footer - top section start -->
-            <section>
-                <label id="logoLabel">Food</label>
-                <section class="social-media">
-                    <i class="fa-brands fa-facebook fa-2xl social" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-linkedin fa-2xl social" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-square-twitter fa-2xl social" style="color: #ffffff;"></i>
-                </section>
-            </section>
-       
-            <section class="footer-top-center-section">
-                <label class="footer-links">Home</label>
-                <label class="footer-links">Product</label>
-                <label class="footer-links">About</label>
-            </section>
-            <section class="footer-top-right-section">
-                <a class="footer-links">Contact US</a>
-                <a class="footer-links">Blog</a>
-                <a class="footer-links">More</a>
-            </section>
-        </section>
-        <!-- <hr> -->
-        <!-- <section class="footer-bottom">
-            <i class="fa-solid fa-copyright copy-write fa-1xl" style="color: #ffffff;"></i>
-            <label id="copywrite-label">Copy Write 2023</label>
-        </section> -->
-       </footer>
+ 
+    <section class="footer">
+
+        <div class="newsletter">
+            <h3>newsletter</h3>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="">
+                <input type="submit" value="subscribe">
+            </form>
+        </div>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>our menu</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> pizza</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> burger</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> chicken</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> pasta</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> and more...</a>
+            </div>
+    
+          
+    
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> terms of use</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> privary policy</a>
+            </div>
+    
+            <div class="box">
+                <h3>opening hours</h3>
+                <p>monday : 7:00am to 10:00pm</p>
+                <p>tuesday : 7:00am to 10:00pm</p>
+                <p>wednesday : 7:00am to 10:00pm</p>
+                <p>friday : 7:00am to 10:00pm</p>
+                <p>saturday and sunday closed</p>
+            </div>
+    
+        </div>
+    
+        <div class="bottom">
+    
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+    
+            <div class="credit"> By <span>Razan|Aya </span> 2023</div>
+            
+        </div>
+    
+    </section>
+    
 
 
 </body>
