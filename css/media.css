@@ -18,7 +18,7 @@
         margin-left: 2px;
     }
 
-    .contact-btn-section {
+    /* .contact-btn-section {
         margin-right: 28vw;
     }
 
@@ -26,14 +26,14 @@
     .social-media {
         justify-content: start;
         margin-left: 1vw;
-    }
+    } */
 
     .footer {
         margin: 0px;
         width: 100%;
     }
 
-    .footer-top {
+    /* .footer-top {
         flex-direction: column;
     }
 
@@ -61,5 +61,5 @@
     #copywrite-label {
         text-align: start;
 
-    }
+    } */
 }
