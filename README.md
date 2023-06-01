@@ -13,10 +13,10 @@ Food
 4. github
 
 # Pages 
-1. Home Page
-2. List Page
-3. Contact Page
-4. Details Page
+1. Home Page -- 
+2. List Page -- 
+3. Contact Page -- https://kytc-front-end.github.io/recipe-ra/pages/contact.html
+4. Details Page -- https://kytc-front-end.github.io/recipe-ra/pages/details.html
 
 
 # Figma Link 
