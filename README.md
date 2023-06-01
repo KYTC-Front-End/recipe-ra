@@ -12,11 +12,11 @@ Food
 3. Git bash
 4. github
 
-#Pages 
-1.Home Page
-2.List Page
-3.Contact Page
-4.Details Page
+# Pages 
+1. Home Page
+2. List Page
+3. Contact Page
+4. Details Page
 
 
 # Figma Link 
