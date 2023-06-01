@@ -13,8 +13,8 @@ Food
 4. github
 
 # Pages 
-1. Home Page -- 
-2. List Page -- 
+1. Home Page -- https://kytc-front-end.github.io/recipe-ra/pages/index.html
+2. List Page -- https://kytc-front-end.github.io/recipe-ra/pages/details.html
 3. Contact Page -- https://kytc-front-end.github.io/recipe-ra/pages/contact.html
 4. Details Page -- https://kytc-front-end.github.io/recipe-ra/pages/details.html
 
